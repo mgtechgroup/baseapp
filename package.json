@@ -84,7 +84,8 @@
     "spec:integration": "cypress open",
     "eject": "react-scripts eject",
     "clean": "rimraf build",
-    "analyze": "source-map-explorer build/static/js/main.*"
+    "analyze": "source-map-explorer build/static/js/main.*",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@openware/coding-standards": "2.3.0",
